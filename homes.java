@@ -1,6 +1,5 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.util.HashMap;
 
 public  class homes{
     public static void main(String[] args){
@@ -8,7 +7,6 @@ public  class homes{
         String line;
         int P1=0,P2=0,P3=0;
         int i=0;
-        HashMap<String,Integer> hm=new HashMap<String,Integer>();
         try (BufferedReader br =new BufferedReader(new FileReader(file))){
             while((line = br.readLine()) != null){
                 if(i!=0){
